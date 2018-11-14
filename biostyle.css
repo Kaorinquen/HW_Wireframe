@@ -1,7 +1,17 @@
-h1, p {
-  float: left;
+h1 {
+  text-align: center;
   color:#777;
-  background:#ebebeb;  
+  background:#ebebeb;
+  line-height: 100px;
+
+}
+
+p {
+    color:#777;
+    background:#ebebeb;
+    font-size: 18pt;
+    border-top: 10px;
+
 }
 
 body {
@@ -13,4 +23,24 @@ body {
 }
 head, nav, section, aside, footer {
     background:#ebebeb
+}
+
+article{
+    background:#777;
+    float:left;
+    border: 30px 10px 10px 10px;
+}
+
+section{
+    size: 495px;
+    float: left;
+}
+
+.totheright{
+    float: right;
+
+}
+
+.heightchange {
+    
 }
