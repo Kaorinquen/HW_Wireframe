@@ -1,18 +1,15 @@
-h1 {
+h1, p {
   text-align: center;
   color:#777;
   background:#ebebeb;
-  line-height: 100px;
+  line-height: 30px;
 
 }
 
-p {
-    color:#777;
-    background:#ebebeb;
-    font-size: 18pt;
-    border-top: 10px;
-
+a{
+    color:red;
 }
+
 
 body {
     font-family: Arial, Helvetica, sans-serif, 'Helvetica Neue';
@@ -20,9 +17,21 @@ body {
     background:#777;
     width: 960px;
     font-size: 18pt;
+
 }
-head, nav, section, aside, footer {
-    background:#ebebeb
+header, nav, footer {
+    background:#ebebeb;
+    margin: 0;
+    text-align: center;
+    box: 0
+}
+.hardnav{
+    margin-top: 10px;
+    box:0;
+    width:33.3%;
+    float: right;
+    border: 0 0 0 10 #777;
+    
 }
 
 article{
@@ -31,9 +40,17 @@ article{
     border: 30px 10px 10px 10px;
 }
 
-section{
-    size: 495px;
-    float: left;
+section {
+    box-sizing: 495px;
+    background: #ebebeb;
+    margin:5px red;
+    width: 495px
+}
+
+div{
+    width: 400px;
+    padding: 15px;
+    margin:0;
 }
 
 .totheright{
@@ -41,6 +58,7 @@ section{
 
 }
 
-.heightchange {
-    
+#akali {
+    width: "350px"; 
+    height: "263px";
 }
