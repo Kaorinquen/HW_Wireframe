@@ -7,7 +7,7 @@ h1, p {
 }
 
 a{
-    color:red;
+    color:rgb(97, 14, 14);
 }
 
 
@@ -21,19 +21,27 @@ body {
 }
 header, nav, footer {
     background:#ebebeb;
-    margin: 0;
+    margin: 0px;
     text-align: center;
-    box: 0
+    padding: 0px;
+
 }
 .hardnav{
+    line-height: 40px;
     margin-top: 10px;
-    box:0;
     width:33.3%;
     float: right;
-    border: 0 0 0 10 #777;
+   border: 0 0 0 10px #777;
     
 }
+#git {
+    margin-right: 10px;
 
+}
+
+#twitter {
+    margin-left: 10px;
+}
 article{
     background:#777;
     float:left;
@@ -43,22 +51,13 @@ article{
 section {
     box-sizing: 495px;
     background: #ebebeb;
-    margin:5px red;
+    margin-top:5px;
     width: 495px
 }
 
-div{
+/* div{
     width: 400px;
     padding: 15px;
     margin:0;
-}
+} */
 
-.totheright{
-    float: right;
-
-}
-
-#akali {
-    width: "350px"; 
-    height: "263px";
-}
